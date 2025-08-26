@@ -246,9 +246,8 @@
     </head>
     <body class="font-sans antialiased bg-dashboard">
         <div class="min-h-screen">
-            @include('layouts.navigation')
-           
-            <!-- Enhanced Page Heading -->
+            <!-- Main Content -->
+            @yield('content')
             @isset($header)
                 <header class="glass-card shadow-lg border-b border-gray-200/50 smooth-transition">
                     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
